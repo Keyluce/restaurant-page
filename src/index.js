@@ -1,5 +1,7 @@
 import './styles.css';
 import { homeLoad } from './home.js';
+import { menuLoad } from './menu.js';
+import { aboutLoad } from './about.js';
 
 document.addEventListener('DOMContentLoaded', homeLoad);
 
@@ -15,10 +17,10 @@ document.addEventListener('DOMContentLoaded', homeLoad);
           homeLoad();
           break;
         case 'Menu':
-          console.log('Menu');
+          menuLoad();
           break;
         case 'About':
-          console.log('About');
+          aboutLoad();
           break;
       }
     }
